@@ -51,7 +51,7 @@ UPDATE Customers
 SET
     ContactName=''
 WHERE
-    Country='Canada'
+    Country!='Canada'
 -- Нет из China ни Customers, ни Supplies
 
 
